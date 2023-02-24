@@ -45,7 +45,7 @@ export class UIChartsView extends UIChartsViewBase {
 
   public onUnloaded() {
     super.onUnloaded();
-    this.nativeView.removeOnLayoutChangeListener(this.customLayoutChangeListener);
+    this.nativeView?.removeOnLayoutChangeListener(this.customLayoutChangeListener);
   }
 
   /**

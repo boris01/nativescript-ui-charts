@@ -1,1 +1,1 @@
-pod 'Highcharts', '9.2.2'
+pod 'Highcharts', '~> 10.3.3'
